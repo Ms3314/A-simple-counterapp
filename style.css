@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,500&display=swap');
+
+
+body{
+    font-family: "Poppins" , sans-serif;
+    background-color: #656562;
+    
+}
+
+.Countdown-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+    padding-left: 400PX;
+    padding-right: 200px;
+    padding-bottom: 40px;
+    font-weight: 900;
+    gap: 2.5rem;
+    width: 600px;
+    background-color: #8EACCD;
+    color: #F9F3CC;
+}
+.Countdown-container:hover{
+    background-color: #454541;
+    color: #8EACCD;
+}
+
+
+
+
+.big-text {
+    font-size: 120px;
+    margin: 0;
+}
+
+.counter-align {
+    text-align: center;
+
+}
+
+.counter-align span{
+    font-size: 2rem;
+    
+}
+
+.upper-div{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+#yes{
+    width: 50px;
+    height: 50px;
+    border-radius: 22px;
+    border-width:0;
+    background-color: #cfcfcf;
+}
+#yes:hover {
+    background-color: #71b6d1;
+}
+input{
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding-right: 5px;
+    width: 320px;
+    padding-left: 20px;
+    height: 60px;
+    border-width: solid;
+    border-width: 0px;
+    background-color: #d1d3d4;
+    color: #6c6b68;
+}
+
+#main-title{
+    display: inline-block;
+    font-size: 50px;
+    font-weight:900;
+    padding-left: 10PX;
+    margin-left: 500px;
+    border-style: none;
+    background-color: #D2E0FB;
+    color: #504f46;
+    width: 1000px;
+    font-size: 90px
+
+}
+
+#main-title:hover {
+    background-color: #504f46;
+    color: #D2E0FB;
+}
+
+
+@media screen and (max-width:420px) {
+    #main-title{
+        margin-top: 100px;
+        font-size:70px ;
+        margin-left: 0px;
+        margin-left: 200px;
+    }
+
+    .Countdown-container{
+        margin-top: 90px;
+        padding-left: 70px;
+        height: 200px;
+        gap: 60px;
+    }
+    .counter-align{
+        font-size: 90px;
+        gap: 10px;
+    }
+    .counter-align span {
+        margin-top:-50px;
+    }
+    .big-text{
+        margin-top: 0px;
+       font-size: 70px;
+       
+    }
+    input{
+        width: 400px;
+        height: 70px;
+    }
+}
+
+
+
